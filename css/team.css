@@ -86,13 +86,13 @@ background-image: url(../images/45-degree-fabric-dark.png);
 .user-name {
   margin-top: 30px;
   font-size: 20px;
-  
+  padding: 5px;
 }
 
 .profile h5 {
   font-size: 16px;
   font-weight: 100;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #ff9933ab;
   padding: 5px;
 }
