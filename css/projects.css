@@ -112,21 +112,22 @@ h2 {
 	align-items: center;
 	max-width: 50%;
 	max-height: 50%;
-   
 }
 .about-pages .subscale p {
 	width: 80%;
 	font-size: 18px;
 	line-height: 30px;
-   
 }
+
 .about-pages div:nth-child(1) {
 	background-color:#d9d9d9;
 	background-image: url("https://ik.imagekit.io/wns4q4r9n2/misc/45-degree-fabric-dark_62MIPvoPq.png");
 }
+
 .about-pages div:nth-child(2) {
 	background-color:transparent;
 }
+
 .about-pages div:nth-child(3) {
 	background-color: #000000;
 	background-image: url("https://ik.imagekit.io/wns4q4r9n2/misc/45-degree-fabric-dark_62MIPvoPq.png");

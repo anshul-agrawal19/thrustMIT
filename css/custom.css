@@ -96,7 +96,7 @@ a:link {
 }
 
 .nav-dots span.nav-dot-current, .nav-dots span:hover {
-	box-shadow:  0 1px 1px rgba(255,255,255,0.4), inset 0 1px 1px rgba(0,0,0,0.1), 0 0 0 5px rgba(255,255,255,0.5);
+	box-shadow: 0 1px 1px rgba(255,255,255,0.4), inset 0 1px 1px rgba(0,0,0,0.1), 0 0 0 5px rgba(255,255,255,0.5);
 }
 
 .nav-dots span.nav-dot-current:after {
@@ -500,7 +500,7 @@ a:link {
 		margin-bottom: -180px;
 	}
 
-	.demo-1 .bg-1-main .citation  {
+	.demo-1 .bg-1-main .citation {
 		font-size: 20px;
 	}
 
