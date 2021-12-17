@@ -4,11 +4,7 @@
 }
 
 /* Slide wrapper and slides */
-
-.sl-slider,
-.sl-slide,
-.sl-slides-wrapper,
-.sl-slide-inner {
+.sl-slider, .sl-slide, .sl-slides-wrapper, .sl-slide-inner {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -26,7 +22,6 @@
 	left: 0;
 }
 
-.nav-arrows,
-.nav-dots {
+.nav-arrows, .nav-dots {
 	display: none;
 }
