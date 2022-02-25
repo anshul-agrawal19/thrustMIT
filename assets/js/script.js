@@ -19,3 +19,10 @@ var scrollToTop = function (evt) {
 
 	return false
 }
+
+// Functions to run after the page has loaded.
+$(document).ready(function () {
+	// Scrolls to top of the window upon page load.
+	$('html, body').scrollTop(0)
+	$('html, body').scrollLeft(0)
+})
