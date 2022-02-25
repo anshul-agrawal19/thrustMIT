@@ -8,6 +8,11 @@
 	}
 }
 
+/* Bootstrap Icons */
+.bi {
+	font-size: 1.5em;
+}
+
 /* Navbar */
 .navbar {
 	z-index: 2;
@@ -38,4 +43,26 @@
 		top: 100%;
 		transform: rotateX(0deg);
 	}
+}
+
+/* Social Media Colours */
+.bi-linkedin {
+	color: #2867B2;
+}
+
+.bi-instagram {
+	/*background: linear-gradient(120deg, #405DE6 0%, #5851DB 11%, #833AB4 22%, #C13584 33%, #E1306C 44%, #FD1D1D 56%, #F56040 67%, #F77737 78%, #FCAF45 89%, #FFDC80 100%);*/
+	color: #E1306C;
+}
+
+.bi-facebook {
+	color: #1778F2;
+}
+
+.bi-twitter {
+	color: #1DA1F2;
+}
+
+.bi-youtube {
+	color: #FF0000;
 }
