@@ -7,3 +7,35 @@
         height: 100%;
 	}
 }
+
+/* Navbar */
+.navbar {
+	z-index: 2;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.3s;
+		margin-top: 0;
+	}
+
+	.navbar .dropdown-menu.fade-up {
+		top: 180%;
+	}
+
+	/* Show navbar dropdowns on hover */
+	.navbar .nav-item:hover .nav-link {
+		color: #000000;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu {
+		transition: 0.3s;
+		opacity: 1;
+		visibility: visible;
+		top: 100%;
+		transform: rotateX(0deg);
+	}
+}

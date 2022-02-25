@@ -21,6 +21,60 @@
 		<script src="/assets/js/script.js"></script>
 	</head>
 	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+			<div class="container-fluid d-flex flex-grow-1">
+				<span class="w-100 d-lg-none d-block"></span> <!-- Spacer for centering the "brand" on mobile viewports -->
+				<a class="navbar-brand mx-auto d-inline-block" href="/">
+					<img src="/assets/img/logo_text_black.png" alt="thrustMIT" height="50">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="main-navbar" class="collapse navbar-collapse ms-auto">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="../">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a id="navbarDropdownMenuLink" class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								The Team
+							</a>
+							<ul class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="/team/current/">Current Team</a></li>
+								<li><a class="dropdown-item" href="/team/alumni/">Alumni</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/subsystems/">Subsystems</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/projects/">Our Rockets</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/sponsors/">Sponsors</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/gallery/">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/contact/" onclick="scrollToTop(event);" aria-current="page">Contact Us</a>
+						</li>
+						<!-- TODO: Implement Internal Wiki -->
+						<li class="nav-item">
+							<a class="nav-link disabled" href="">Resources</a>
+						</li>
+						<!-- TODO: Implement Search Button -->
+						<!--
+							<form class="d-flex">
+								<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+								<button class="btn btn-outline-success" type="submit">Search</button>
+							</form>
+						-->
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<!-- Main Content -->
 		<h1>Hello World!</h1>
 		<br>
