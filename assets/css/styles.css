@@ -45,6 +45,18 @@
 	}
 }
 
+/* Scroll to Top Button */
+#scroll-to-top {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+}
+
+#scroll-to-top .bi-arrow-up-circle-fill {
+	font-size: 3.5em;
+	color: cornflowerblue;
+}
+
 /* Social Media Colours */
 .bi-linkedin {
 	color: #2867B2;

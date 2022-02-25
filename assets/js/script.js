@@ -25,4 +25,22 @@ $(document).ready(function () {
 	// Scrolls to top of the window upon page load.
 	$('html, body').scrollTop(0)
 	$('html, body').scrollLeft(0)
+
+	// Hide the Scroll to Top button initially.
+	$('#scroll-to-top').hide()
+
+	// Hide the Scroll to Top button if the window is at the top of the viewport.
+	// TODO: Make the Navbar transparent at top of screen
+	$(window).scroll(function () {
+		if ($(window).scrollTop() == 0) {
+			$('#scroll-to-top').hide('fast')
+		} else {
+			$('#scroll-to-top').show('fast')
+		}
+	})
+
+	// Animated scrolling to the top of the page when the Scroll to Top button is clicked.
+	$('#scroll-to-top').click(function (event) {
+		scrollToTop(event)
+	})
 })
